@@ -1,0 +1,14 @@
+{
+  "name": "mech-armor-settings",
+  "version": "2.0.1",
+  "title": "Mech Armor Settings",
+  "author": "cagricelebi",
+  "contact": "https://github.com/az3",
+  "homepage": "https://mods.factorio.com/mod/mech-armor-settings",
+  "description": "Change resistance and inventory related attributes of the Mech Armor.",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.0",
+    "space-age >= 2.0.0"
+  ]
+}
