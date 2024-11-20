@@ -16,28 +16,27 @@ local resistances_laser_percent = settings.startup["resistances_laser_percent"].
 local resistances_electric_decrease = settings.startup["resistances_electric_decrease"].value
 local resistances_electric_percent = settings.startup["resistances_electric_percent"].value
 
-local inventory_size_bonus = settings.startup["inventory_size_bonus"].value
 -- local provides_flight = settings.startup["provides_flight"].value
-local equipment_grid_width = settings.startup["equipment_grid_width"].value
-local equipment_grid_height = settings.startup["equipment_grid_height"].value
-
-data.raw.armor["mech-armor"].inventory_size_bonus = inventory_size_bonus
-
 -- data.raw.armor["mech-armor"].provides_flight = provides_flight
 
-data:extend(
-        {
+if not mods["Configurable-Armour-Suits"] then
+    local inventory_size_bonus = settings.startup["inventory_size_bonus"].value
+    local equipment_grid_width = settings.startup["equipment_grid_width"].value
+    local equipment_grid_height = settings.startup["equipment_grid_height"].value
+    data:extend(
             {
-                type = "equipment-grid",
-                name = "mech-armor-equipment-grid",
-                width = equipment_grid_width,
-                height = equipment_grid_height,
-                equipment_categories = { "armor" }
+                {
+                    type = "equipment-grid",
+                    name = "mech-armor-equipment-grid",
+                    width = equipment_grid_width,
+                    height = equipment_grid_height,
+                    equipment_categories = { "armor" }
+                }
             }
-        }
-)
-
-data.raw.armor["mech-armor"].equipment_grid = "mech-armor-equipment-grid"
+    )
+    data.raw.armor["mech-armor"].inventory_size_bonus = inventory_size_bonus
+    data.raw.armor["mech-armor"].equipment_grid = "mech-armor-equipment-grid"
+end
 
 data.raw.armor["mech-armor"].resistances = {
     {

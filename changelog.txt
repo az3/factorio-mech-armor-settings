@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2024-11-20
+  Info:
+    - Added support for "Configurable Armour & Suits" mod. See: https://mods.factorio.com/mod/Configurable-Armour-Suits
+    - If "Configurable Armour & Suits" is active, the 3 settings "Player inventory size bonus", "Equipment grid width", and "Equipment grid height" will be configurable via CA&S.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.1
 Date: 2024-11-12
   Info:

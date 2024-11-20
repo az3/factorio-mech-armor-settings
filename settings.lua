@@ -147,33 +147,6 @@ data:extend({
         maximum_value = 100,
     },
     -- END resistances
-    {
-        type = "int-setting",
-        name = "inventory_size_bonus",
-        order = "mas31",
-        setting_type = "startup",
-        default_value = 50,
-        minimum_value = 0,
-        maximum_value = 1000000000,
-    },
-    {
-        type = "int-setting",
-        name = "equipment_grid_width",
-        order = "mas32",
-        setting_type = "startup",
-        default_value = 10,
-        minimum_value = 0,
-        maximum_value = 1000000000,
-    },
-    {
-        type = "int-setting",
-        name = "equipment_grid_height",
-        order = "mas33",
-        setting_type = "startup",
-        default_value = 12,
-        minimum_value = 0,
-        maximum_value = 1000000000,
-    },
     --[[
     {
         type = "bool-setting",
@@ -184,3 +157,35 @@ data:extend({
     },
     ]]--
 })
+
+if not mods["Configurable-Armour-Suits"] then
+    data:extend({
+        {
+            type = "int-setting",
+            name = "inventory_size_bonus",
+            order = "mas31",
+            setting_type = "startup",
+            default_value = 50,
+            minimum_value = 0,
+            maximum_value = 1000000000,
+        },
+        {
+            type = "int-setting",
+            name = "equipment_grid_width",
+            order = "mas32",
+            setting_type = "startup",
+            default_value = 10,
+            minimum_value = 0,
+            maximum_value = 1000000000,
+        },
+        {
+            type = "int-setting",
+            name = "equipment_grid_height",
+            order = "mas33",
+            setting_type = "startup",
+            default_value = 12,
+            minimum_value = 0,
+            maximum_value = 1000000000,
+        },
+    })
+end
