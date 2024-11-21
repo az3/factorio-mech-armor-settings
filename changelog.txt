@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 2024-11-21
+  Info:
+    - Removed dependency for "Configurable Armour & Suits" mod.
+    - Still, if both mods are active, the 3 settings mentioned before will be managed by CA&S mod.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.2
 Date: 2024-11-20
   Info:

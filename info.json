@@ -1,6 +1,6 @@
 {
   "name": "mech-armor-settings",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "title": "Mech Armor Settings",
   "author": "cagricelebi",
   "contact": "https://github.com/az3/factorio-mech-armor-settings",
@@ -9,7 +9,6 @@
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.0",
-    "space-age >= 2.0.0",
-    "? Configurable-Armour-Suits >= 1.5.6"
+    "space-age >= 2.0.0"
   ]
 }
