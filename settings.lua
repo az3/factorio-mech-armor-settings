@@ -7,7 +7,6 @@ data:extend({
         setting_type = "startup",
         default_value = 10,
         minimum_value = 0,
-        maximum_value = 1000000000,
     },
     {
         type = "int-setting",
@@ -16,7 +15,6 @@ data:extend({
         setting_type = "startup",
         default_value = 50,
         minimum_value = 0,
-        maximum_value = 100,
     },
     {
         type = "int-setting",
@@ -25,7 +23,6 @@ data:extend({
         setting_type = "startup",
         default_value = 0,
         minimum_value = 0,
-        maximum_value = 1000000000,
     },
     {
         type = "int-setting",
@@ -34,7 +31,6 @@ data:extend({
         setting_type = "startup",
         default_value = 70,
         minimum_value = 0,
-        maximum_value = 100,
     },
     {
         type = "int-setting",
@@ -43,7 +39,6 @@ data:extend({
         setting_type = "startup",
         default_value = 60,
         minimum_value = 0,
-        maximum_value = 1000000000,
     },
     {
         type = "int-setting",
@@ -52,7 +47,6 @@ data:extend({
         setting_type = "startup",
         default_value = 50,
         minimum_value = 0,
-        maximum_value = 100,
     },
     {
         type = "int-setting",
@@ -61,7 +55,6 @@ data:extend({
         setting_type = "startup",
         default_value = 10,
         minimum_value = 0,
-        maximum_value = 1000000000,
     },
     {
         type = "int-setting",
@@ -70,7 +63,6 @@ data:extend({
         setting_type = "startup",
         default_value = 70,
         minimum_value = 0,
-        maximum_value = 100,
     },
     -- default res values above
     -- hidden res values below
@@ -81,7 +73,6 @@ data:extend({
         setting_type = "startup",
         default_value = 0,
         minimum_value = 0,
-        maximum_value = 1000000000,
     },
     {
         type = "int-setting",
@@ -90,7 +81,6 @@ data:extend({
         setting_type = "startup",
         default_value = 0,
         minimum_value = 0,
-        maximum_value = 100,
     },
     {
         type = "int-setting",
@@ -99,7 +89,6 @@ data:extend({
         setting_type = "startup",
         default_value = 0,
         minimum_value = 0,
-        maximum_value = 1000000000,
     },
     {
         type = "int-setting",
@@ -108,7 +97,6 @@ data:extend({
         setting_type = "startup",
         default_value = 0,
         minimum_value = 0,
-        maximum_value = 100,
     },
     {
         type = "int-setting",
@@ -117,7 +105,6 @@ data:extend({
         setting_type = "startup",
         default_value = 0,
         minimum_value = 0,
-        maximum_value = 1000000000,
     },
     {
         type = "int-setting",
@@ -126,7 +113,6 @@ data:extend({
         setting_type = "startup",
         default_value = 0,
         minimum_value = 0,
-        maximum_value = 100,
     },
     {
         type = "int-setting",
@@ -135,7 +121,6 @@ data:extend({
         setting_type = "startup",
         default_value = 0,
         minimum_value = 0,
-        maximum_value = 1000000000,
     },
     {
         type = "int-setting",
@@ -144,7 +129,6 @@ data:extend({
         setting_type = "startup",
         default_value = 0,
         minimum_value = 0,
-        maximum_value = 100,
     },
     -- END resistances
     --[[
@@ -167,7 +151,6 @@ if not mods["Configurable-Armour-Suits"] then
             setting_type = "startup",
             default_value = 50,
             minimum_value = 0,
-            maximum_value = 1000000000,
         },
         {
             type = "int-setting",
@@ -176,7 +159,6 @@ if not mods["Configurable-Armour-Suits"] then
             setting_type = "startup",
             default_value = 10,
             minimum_value = 0,
-            maximum_value = 1000000000,
         },
         {
             type = "int-setting",
@@ -185,7 +167,6 @@ if not mods["Configurable-Armour-Suits"] then
             setting_type = "startup",
             default_value = 12,
             minimum_value = 0,
-            maximum_value = 1000000000,
         },
     })
 end
